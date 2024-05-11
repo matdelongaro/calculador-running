@@ -1,7 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+body{
+    background-color: #fff;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    color: #333;
+}
+.main-container{
+    background-color: rgba(51,102,255,.5);
+    margin: 5%;
+    padding: 5%;
+    box-shadow: 0 0 10px #888;
+    font-size: 18px;
 }
 .encabezado{
     text-align: center;
@@ -13,17 +31,46 @@
     justify-content: center;
     align-items: center;
     padding: 1em;
-    margin: 2em 0;
+    margin: 1.5em 0;
 
 }
+.distanceContainer, .timeContainer{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+
+}
+#time , #distance{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: #333;
+}
+input{
+    height: 3em;
+}
+
 .response{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 0.5em;
 
 }
+#resultado{
+    margin: 2em 0;
+    color: black;
+}
 .response button{
-    width: 30%;
-    padding: 1em;
+    width: 50%;
+    height: 2.5em;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    
+
 }

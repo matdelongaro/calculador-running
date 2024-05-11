@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.encabezado{
+    text-align: center;
+}
+
+.dataInput{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    margin: 2em 0;
+
+}
+.response{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.response button{
+    width: 30%;
+    padding: 1em;
+}
